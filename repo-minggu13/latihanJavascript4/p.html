@@ -1,0 +1,9 @@
+<script>
+		var url = "http://localhost/pem-web2021/repo-minggu13/latihanJavascript4/kode.json";
+		$.get(url, function(data, status){
+			$("#avatar").attr("src", data.avatar_url);
+			$("#name").text(data.name); 
+			8
+			$("#location").text(data.location);
+		});
+	</script>
